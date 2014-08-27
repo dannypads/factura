@@ -30,3 +30,6 @@ Route::get('cliente/{id}', function($id)
 });
 
 
+Route::get('clientes','ClienteController@index');
+
+
